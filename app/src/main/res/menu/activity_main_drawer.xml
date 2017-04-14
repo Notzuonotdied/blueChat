@@ -3,33 +3,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/enable_visiblity"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="蓝牙可视" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/find_device"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="查找设备" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/bonded_device"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="绑定设备" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/disconnect"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="终止链接" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="聊天选项">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/listening"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="开始聊天" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/stop_listening"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="终止聊天" />
         </menu>
     </item>
 
